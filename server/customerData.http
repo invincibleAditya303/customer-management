@@ -1,0 +1,58 @@
+POST http://localhost:5000/customers
+Content-Type: application/json
+
+{
+    "firstName": "Alex",
+    "lastName": "Charles",
+    "phoneNumber": "9949129318"
+}
+###
+
+GET http://localhost:5000/customers
+
+###
+
+GET http://localhost:5000/customers/1
+
+###
+
+PUT http://localhost:5000/customers/3
+Content-Type: application/json
+
+{
+    "lastName": "Nickson"
+}
+###
+
+DELETE http://localhost:5000/customers/3
+
+###
+
+POST http://localhost:5000/customers/4/addresses
+Content-Type: application/json
+
+{
+    "addressDetails" : "744 Joes Road",
+    "city": "Albany",
+    "state": "New York",
+    "pinCode": "12207"
+}
+
+###
+
+GET http://localhost:5000/customers/4/addresses
+
+###
+
+PUT http://localhost:5000/addresses/1
+Content-Type: application/json
+
+{
+    "addressDetails": "3798 Rocket Drive"
+}
+
+###
+
+DELETE  http://localhost:5000/addresses/6
+
+###
