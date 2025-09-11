@@ -123,6 +123,7 @@ export const AddressListItemButtonContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-left: 15px;
+    margin-bottom: 15px;
 `
 
 export const EditButton = styled.button`
