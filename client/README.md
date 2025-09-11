@@ -2,7 +2,7 @@
 
 A full-stack web application to manage customers and their addresses. Users can create, view, update, and delete customers, as well as maintain multiple addresses per customer.
 
-#Table of Contents
+# Table of Contents
 
 Description
 .Features
