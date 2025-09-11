@@ -1,3 +1,47 @@
+# Customer Management App
+
+A full-stack web application to manage customers and their addresses. Users can create, view, update, and delete customers, as well as maintain multiple addresses per customer.
+
+#Table of Contents
+
+Description
+Features
+Tech Stack
+Installation
+Usage
+API Endpoints
+Database Schema
+Validation & Error Handling
+
+# Description
+
+What it does:
+Lets you manage customers and their addresses via a web interface. Supports CRUD operations (Create, Read, Update, Delete) for both customers and addresses.
+
+How it works:
+Backend is built with Node.js + Express.js serving a REST API.
+SQLite is used as a lightweight database storing customers and addresses in a one-to-many relation.
+Frontend built with React JS, using React Router for navigation. Axios handles HTTP calls to the backend.
+
+# Features
+Create, read, update, delete customers
+Add, view, edit, delete multiple addresses per customer
+Pagination support on customer list
+Form validation (both client-side and server-side)
+
+# Tech Stack
+Layer	Technologies
+Backend	Node.js, Express.js
+Database	SQLite
+CORS and JSON parsing	cors, express.json()
+Frontend	React JS, React Router Dom, Axios
+
+# Usage
+Navigate to Customer List page to see all customers.
+Click a customer to view details and associated addresses.
+Use forms to add/edit customer or address.
+Delete buttons available to remove customers or addresses.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
