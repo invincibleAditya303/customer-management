@@ -6,7 +6,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 
 - [Description](#Description)
 - [Features](#Features)
-- [Tech Stack](#TechStack)
+- *[Tech Stack](#TechStack)*
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [API Endpoints](#APIEndpoints)
