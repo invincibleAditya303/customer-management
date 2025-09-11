@@ -45,11 +45,11 @@ const AddressForm = props => {
         }
 
         const endpoint = isEdit
-        ? `/api/addresses/${addressId}`
-        : `/api/customers/${id}/addresses`
+        ? `/addresses/${addressId}`
+        : `/customers/${id}/addresses`
 
         const newAddressDetails = {addressDetails, city, state, pinCode}
-        const apiUrl = `http://localhost:5000/${endpoint}`
+        const apiUrl = `${REACT_APP_API_URL}/${endpoint}`
         const options = {
             method: 'POST',
             headers: {
