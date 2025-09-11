@@ -66,7 +66,8 @@ A full-stack web application to manage customers and their addresses. Users can 
 | pin_code            | TEXT    | NOT NULL                  |
 
 # API Endpoints
-| Route	                            | Method	Description
+** Routes **
+| Route	                            | Method |	Description
 | --------------------------------- | ------ | -------------------------------------------------------------- |
 | POST /api/customers	              | POST	 | Create a new customer                                          |
 | GET /api/customers	              | GET	   | List all customers (with support for search, sort, pagination) |
