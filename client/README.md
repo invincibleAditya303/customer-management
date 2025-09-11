@@ -11,7 +11,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 - [Usage](#Usage)
 - [API Endpoints](#API-Endpoints)
 - [Database Schema](#Database-Schema)
-- [Validation & Error Handling](#Validation-&-ErrorHandling)
+- [Validation & Error Handling](#Validation-&-Error-Handling)
 
 # Description
 
