@@ -3,7 +3,24 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-app.use(cors());
+const allowedOrigins = [
+  'http://localhost:3000', // Local development
+  'https://customer-management-gamma-seven.vercel.app', // Production domain
+]
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+  methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
+};
+
+app.use(cors(corsOptions))
 app.use(express.json());
 
 const path = require('path')
@@ -11,7 +28,6 @@ const dbPath = path.join(__dirname, 'customerData.db')
 
 const {open} = require('sqlite')
 const sqlite3 = require('sqlite3');
-const { request } = require('http');
 
 const PORT = process.env.PORT || 5000
 
