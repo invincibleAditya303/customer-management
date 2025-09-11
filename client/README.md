@@ -12,6 +12,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 - [API Endpoints](#API-Endpoints)
 - [Database Schema](#Database-Schema)
 - [Validation and Error Handling](#Validation-and-Error-Handling)
+- [Setup and Installation](#Setup-and-Installation)
 
 # Description
 
@@ -84,7 +85,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 - Server-side: All incoming data is validated before being inserted into database. Ensures unique constraints (e.g. phone number), proper   formats, foreign-key integrity.
 - Errors return meaningful HTTP status codes and messages (e.g. 400 Bad Request, 404 Not Found).
 
-## Setup & Installation
+## Setup and Installation
 
 ### Backend
 
