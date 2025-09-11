@@ -34,7 +34,7 @@ const onClickDelete = async addressId => {
     const confirmed = window.confirm("Are you sure you want to delete this address?");
     if (!confirmed) return
 
-    const apiUrl = `${REACT_APP_API_URL}/addresses/${addressId}`
+    const apiUrl = `${process.env.REACT_APP_API_URL}/addresses/${addressId}`
     const options = {
         method: 'DELETE'
     }

@@ -13,7 +13,7 @@ const CustomerList = () => {
 
     useEffect(() => {
         const getCustomersList = async () => {
-            const apiUrl = `${REACT_APP_API_URL}/customers`
+            const apiUrl = `${process.env.REACT_APP_API_URL}/customers`
             const response = await fetch(apiUrl)
             const customersData = await response.json()
             console.log(customersData)

@@ -23,7 +23,7 @@ const CustomerForm = () => {
             return
         }
         const newCustomerDetails =  {firstName, lastName, phoneNumber}
-        const apiUrl = `${REACT_APP_API_URL}/customers`
+        const apiUrl = `${process.env.REACT_APP_API_URL}/customers`
         const options = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

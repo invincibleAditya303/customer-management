@@ -17,7 +17,7 @@ const CustomerDetails = () => {
     useEffect(() => {
         const getCustomerDetails = async () => {
             console.log(id)
-            const apiUrl = `${REACT_APP_API_URL}/customers/${id}`
+            const apiUrl = `${process.env.REACT_APP_API_URL}/customers/${id}`
 
             const response = await fetch(apiUrl)
             const customerData = await response.json()

@@ -49,7 +49,7 @@ const AddressForm = props => {
         : `/customers/${id}/addresses`
 
         const newAddressDetails = {addressDetails, city, state, pinCode}
-        const apiUrl = `${REACT_APP_API_URL}/${endpoint}`
+        const apiUrl = `${process.env.REACT_APP_API_URL}/${endpoint}`
         const options = {
             method: 'POST',
             headers: {
