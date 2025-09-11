@@ -48,7 +48,7 @@ const CustomerList = () => {
         const confirmed = window.confirm("Are you sure you want to delete this customer?");
         if (!confirmed) return
 
-        const apiUrl = `http://localhost:5000/customers/${customerId}`
+        const apiUrl = `${process.env.REACT_APP_API_URL}/${customerId}`
         const options = {
            method: 'DELETE'
         }

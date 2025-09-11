@@ -9,7 +9,7 @@ const [customerAddressList, setCustomerAddressList] = useState([])
 
 useEffect(() => {
     const getAddressesList = async () => {
-        const apiUrl = `http://localhost:5000/customers/${id}/addresses`
+        const apiUrl = `${process.env.REACT_APP_API_URL}/${id}/addresses`
         const response = await fetch(apiUrl)
         const addressesData = await response.json()
         const {data} = addressesData
