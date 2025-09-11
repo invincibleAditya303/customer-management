@@ -79,6 +79,23 @@ A full-stack web application to manage customers and their addresses. Users can 
 | PUT /api/addresses/:addressId     |	PUT    |	Update specific address                                       |
 | DELETE /api/addresses/:addressId  |	DELETE |	Delete specific address                                       |
 
+## Setup & Installation
+
+### Backend
+
+```bash
+cd backend
+npm install
+# Ensure MongoDB is running
+npm run seed          # Parses JSON and populates the database
+npm start             # Launches the API server
+
+### Frontend
+
+cd frontend
+npm install
+npm start             # Runs the React app (default: http://localhost:3000)
+
 
 # Getting Started with Create React App
 
