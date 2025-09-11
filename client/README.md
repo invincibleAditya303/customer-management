@@ -11,7 +11,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 - [Usage](#Usage)
 - [API Endpoints](#API-Endpoints)
 - [Database Schema](#Database-Schema)
-- [Validation & Error Handling](#Validation-Error-Handling)
+- [Validation and Error Handling](#Validation-and-Error-Handling)
 
 # Description
 
@@ -79,7 +79,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 | PUT /api/addresses/:addressId     |	PUT    |	Update specific address                                       |
 | DELETE /api/addresses/:addressId  |	DELETE |	Delete specific address                                       |
 
-# Validation & Error Handling
+# Validation and Error Handling
 - Client-side: Forms validate required fields; show immediate feedback for empty or invalid inputs.
 - Server-side: All incoming data is validated before being inserted into database. Ensures unique constraints (e.g. phone number), proper   formats, foreign-key integrity.
 - Errors return meaningful HTTP status codes and messages (e.g. 400 Bad Request, 404 Not Found).
