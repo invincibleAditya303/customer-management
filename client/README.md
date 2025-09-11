@@ -79,6 +79,11 @@ A full-stack web application to manage customers and their addresses. Users can 
 | PUT /api/addresses/:addressId     |	PUT    |	Update specific address                                       |
 | DELETE /api/addresses/:addressId  |	DELETE |	Delete specific address                                       |
 
+# Validation & Error Handling
+- Client-side: Forms validate required fields; show immediate feedback for empty or invalid inputs.
+- Server-side: All incoming data is validated before being inserted into database. Ensures unique constraints (e.g. phone number), proper   formats, foreign-key integrity.
+- Errors return meaningful HTTP status codes and messages (e.g. 400 Bad Request, 404 Not Found).
+
 ## Setup & Installation
 
 ### Backend
