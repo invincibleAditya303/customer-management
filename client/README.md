@@ -4,14 +4,14 @@ A full-stack web application to manage customers and their addresses. Users can 
 
 # Table of Contents
 
- .Description
-.Features
-.Tech Stack
-.Installation
-.Usage
-.API Endpoints
-.Database Schema
-.Validation & Error Handling
+- Description
+- Features
+- Tech Stack
+- Installation
+- Usage
+- API Endpoints
+- Database Schema
+- Validation & Error Handling
 
 # Description
 
