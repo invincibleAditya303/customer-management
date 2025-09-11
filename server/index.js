@@ -60,7 +60,7 @@ app.post('/customers', async (request, response) => {
 })
 
 //Get all customers API
-  app.get('/customers/',  async (request, response) => {
+  app.get('/customers',  async (request, response) => {
     const getAllCustomersQuery = `
         SELECT
             *
@@ -75,7 +75,7 @@ app.post('/customers', async (request, response) => {
   })
 
 //Get a single customer API
-app.get('/customers/:id/', async (request, response) => {
+app.get('/customers/:id', async (request, response) => {
     const {id} = request.params
 
     const getSingleCustomerQuery = `
