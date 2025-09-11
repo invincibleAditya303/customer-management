@@ -4,7 +4,7 @@ A full-stack web application to manage customers and their addresses. Users can 
 
 # Table of Contents
 
-- Description
+- Description(# Description)
 - Features
 - Tech Stack
 - Installation
