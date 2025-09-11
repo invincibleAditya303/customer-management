@@ -88,7 +88,7 @@ export const AddressesList = styled.ul`
 
 export const AddressListItem = styled.li`
     width: 48%;
-    height: 38vh;
+    height: 40vh;
     background-color: #ecf8fa;
     list-style-type: none;
     border-radius: 15px;
