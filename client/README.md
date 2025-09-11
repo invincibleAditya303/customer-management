@@ -9,9 +9,9 @@ A full-stack web application to manage customers and their addresses. Users can 
 - [Tech Stack](#Tech-Stack)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [API Endpoints](#APIEndpoints)
-- [Database Schema](#DatabaseSchema)
-- [Validation & Error Handling](#Validation&ErrorHandling)
+- [API Endpoints](#API-Endpoints)
+- [Database Schema](#Database-Schema)
+- [Validation & Error Handling](#Validation-&-ErrorHandling)
 
 # Description
 
