@@ -73,6 +73,7 @@ export const AddAddressButton = styled.button`
 
 export const AddressesList = styled.ul`
     width: 90%;
+    min-height: 60vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +88,7 @@ export const AddressesList = styled.ul`
 
 export const AddressListItem = styled.li`
     width: 48%;
-    height: 35vh;
+    height: 38vh;
     background-color: #ecf8fa;
     list-style-type: none;
     border-radius: 15px;
