@@ -20,9 +20,9 @@ const AddressForm = props => {
     }
 
     const [addressDetails, setAddressDeatils] = useState(parsed?.addressDetails || '')
-    const [city, setCity] = useState(parsed?.city)
+    const [city, setCity] = useState(parsed?.city || '')
     const [state, setNewState] = useState(parsed?.state || '')
-    const [pinCode, setPinCode] = useState(parsed?.pinCode)
+    const [pinCode, setPinCode] = useState(parsed?.pinCode || '')
     const [successMsg, setSuccessMsg] = useState('')
     const[errMsg, setErrMsg] = useState('')
 
@@ -45,11 +45,12 @@ const AddressForm = props => {
         }
 
         const endpoint = isEdit
-        ? `/addresses/${addressId}`
-        : `/customers/${id}/addresses`
+        ? `addresses/${addressId}`
+        : `customers/${id}/addresses`
 
         const newAddressDetails = {addressDetails, city, state, pinCode}
         const apiUrl = `${process.env.REACT_APP_API_URL}/${endpoint}`
+        console.log(apiUrl)
         const options = {
             method: 'POST',
             headers: {
