@@ -43,6 +43,42 @@ A full-stack web application to manage customers and their addresses. Users can 
 - Use forms to add/edit customer or address.
 - Delete buttons available to remove customers or addresses.
 
+# Database Schema
+
+**users Table**
+
+| Column      | Type    | Constraints               |
+| --------    | ------- | ------------------------- |
+| id          | INTEGER | PRIMARY KEY AUTOINCREMENT |
+| first_name  | TEXT    | NOT NULL                  |
+| last_name   | TEXT    | NOT NULL                  |
+| phone_number| TEXT    | NOT NULL UNIQUE           |
+
+**addresses Table**
+
+| Column              | Type    | Constraints
+| ------------------- | ------- | ------------------------- |
+| id                  | INTEGER | PRIMARY KEY AUTOINCREMENT |
+| customer_id         | INETGER | FOREIGN KEY               |
+| address_details     | INTEGER | NOT NULL                  |
+| city                | TEXT    | NOT NULL                  |
+| state               | INTEGER | NOT NULL                  |
+| pin_code            | TEXT    | NOT NULL                  |
+
+# API Endpoints
+| Route	                            | Method	Description
+| --------------------------------- | ------ | -------------------------------------------------------------- |
+| POST /api/customers	              | POST	 | Create a new customer                                          |
+| GET /api/customers	              | GET	   | List all customers (with support for search, sort, pagination) |
+| GET /api/customers/:id            | GET    |	Get details of one customer                                   |
+| PUT /api/customers/:id            |	PUT    |	Update a customer                                             |
+| DELETE /api/customers/:id         |	DELETE |	Delete a customer                                             |
+| POST /api/customers/:id/addresses |	POST   |	Add address for a customer                                    |
+| GET /api/customers/:id/addresses  |	GET    |	Get all addresses for a customer                              |
+| PUT /api/addresses/:addressId     |	PUT    |	Update specific address                                       |
+| DELETE /api/addresses/:addressId  |	DELETE |	Delete specific address                                       |
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
