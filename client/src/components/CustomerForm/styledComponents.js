@@ -35,7 +35,7 @@ export const CustomerFormDetailsContainer = styled.div`
 
 export const CustomerFormContainer = styled.form`
     width: 45vw;
-    height: 55vh;
+    height: 60vh;
     background-color: #ebe7e2;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ export const CustomerFormContainer = styled.form`
     border-radius: 30px;
 
     @media (width <= 776px) {
-        height: 45vh;
+        height: 48vh;
         width: 80vw;
     }
 `
@@ -114,7 +114,7 @@ export const CustomerAddButton = styled.button`
 
 export const CustomerFormImage = styled.img`
     width: 35vw;
-    height: 55vh;
+    height: 60vh;
     border-radius: 30px;
     margin-right: 20px;
 
