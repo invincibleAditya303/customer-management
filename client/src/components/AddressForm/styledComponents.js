@@ -15,7 +15,7 @@ export const AddressFormTitle = styled.h1`
     padding-top: 20px;
 
     @media (width <= 776px) {
-        f0nt-size: 18px;
+        font-size: 18px;
     }
 `
 
@@ -27,7 +27,7 @@ export const AddressFormDetailsContainer = styled.div`
     align-items: center;
 
     @media (width <= 776px) {
-        min-height: 90vh;
+        min-height: 95vh;
         flex-direction: column;
         justify-content: flex-start;
     }
@@ -44,7 +44,7 @@ export const AddressFormContainer = styled.form`
 
     @media (width <= 776px) {
         width: 80vw;
-        min-height: 55vh;   
+        min-height: 60vh;   
     }
 `
 
