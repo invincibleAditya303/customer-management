@@ -27,7 +27,7 @@ export const AddressFormDetailsContainer = styled.div`
     align-items: center;
 
     @media (width <= 776px) {
-        height: 90vh;
+        min-height: 90vh;
         flex-direction: column;
         justify-content: flex-start;
     }
@@ -44,8 +44,7 @@ export const AddressFormContainer = styled.form`
 
     @media (width <= 776px) {
         width: 80vw;
-        height: 58vh;
-        
+        height: 60vh;   
     }
 `
 
