@@ -44,7 +44,7 @@ export const CustomerFormContainer = styled.form`
     border-radius: 30px;
 
     @media (width <= 776px) {
-        height: 52vh;
+        height: 53vh;
         width: 80vw;
     }
 `
