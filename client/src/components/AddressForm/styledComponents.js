@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const AddressrFormBgContainer = styled.div`
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: #1f1f1f;
 `
 
@@ -35,7 +35,7 @@ export const AddressFormDetailsContainer = styled.div`
 
 export const AddressFormContainer = styled.form`
     width: 45vw;
-    height: 75vh;
+    height: 77vh;
     background-color: #ebe7e2;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ export const AddressFormContainer = styled.form`
 
     @media (width <= 776px) {
         width: 80vw;
-        height: 55vh;
+        height: 58vh;
         
     }
 `
