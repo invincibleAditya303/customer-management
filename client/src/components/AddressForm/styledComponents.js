@@ -27,6 +27,7 @@ export const AddressFormDetailsContainer = styled.div`
     align-items: center;
 
     @media (width <= 776px) {
+        height: 90vh;
         flex-direction: column;
         justify-content: flex-start;
     }
@@ -34,7 +35,7 @@ export const AddressFormDetailsContainer = styled.div`
 
 export const AddressFormContainer = styled.form`
     width: 45vw;
-    height: 70vh;
+    height: 75vh;
     background-color: #ebe7e2;
     display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@ export const AddressFormContainer = styled.form`
 
     @media (width <= 776px) {
         width: 80vw;
-        height: 50vh;
+        height: 55vh;
         
     }
 `
@@ -114,7 +115,7 @@ export const AddressAddButton = styled.button`
 
 export const AddressFormImage = styled.img`
     width: 35vw;
-    height: 70vh;
+    height: 75vh;
     border-radius: 30px;
     margin-right: 20px;
 
