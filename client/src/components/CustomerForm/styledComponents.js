@@ -141,7 +141,7 @@ export const CustomerAdditionFailureMsg = styled.p`
     color: #e04226;
     font-size: 16px;
     font-family: "Roboto";
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 
     @media (width <= 776px) {
         font-size: 12px;
