@@ -34,7 +34,7 @@ export const AddressFormDetailsContainer = styled.div`
 
 export const AddressFormContainer = styled.form`
     width: 45vw;
-    height: 65vh;
+    height: 70vh;
     background-color: #ebe7e2;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ export const AddressAddButton = styled.button`
 
 export const AddressFormImage = styled.img`
     width: 35vw;
-    height: 65vh;
+    height: 70vh;
     border-radius: 30px;
     margin-right: 20px;
 
