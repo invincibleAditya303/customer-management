@@ -27,6 +27,7 @@ export const CustomerFormDetailsContainer = styled.div`
     align-items: center;
 
     @media (width <= 776px) {
+        height: 85vh;
         flex-direction: column;
         justify-content: flex-start;
         margin-top: 20px;
@@ -35,7 +36,7 @@ export const CustomerFormDetailsContainer = styled.div`
 
 export const CustomerFormContainer = styled.form`
     width: 45vw;
-    height: 60vh;
+    height: 63vh;
     background-color: #ebe7e2;
     display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@ export const CustomerFormContainer = styled.form`
     border-radius: 30px;
 
     @media (width <= 776px) {
-        height: 48vh;
+        height: 52vh;
         width: 80vw;
     }
 `
@@ -114,7 +115,7 @@ export const CustomerAddButton = styled.button`
 
 export const CustomerFormImage = styled.img`
     width: 35vw;
-    height: 60vh;
+    height: 63vh;
     border-radius: 30px;
     margin-right: 20px;
 
