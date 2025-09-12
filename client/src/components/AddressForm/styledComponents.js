@@ -44,7 +44,7 @@ export const AddressFormContainer = styled.form`
 
     @media (width <= 776px) {
         width: 80vw;
-        height: 60vh;   
+        min-height: 55vh;   
     }
 `
 
